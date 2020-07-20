@@ -1,0 +1,209 @@
+.osnova{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	display:grid;
+	grid-template-rows:105px auto 100px;
+}
+
+.top{
+	display:grid;
+	position:relative;
+	grid-template-columns:15% 40%;
+	grid-column-gap:50%;
+	
+}
+
+.photo{
+	display:grid;
+
+	position:relative;
+}
+
+.photo > img{
+	position:absolute;
+	padding-left:50px;
+	padding-top:10px;
+	transition:1s;
+	z-index:1;
+}
+
+.photo > span{
+	position:relative;
+	padding-left:70px;
+	padding-top:42px;
+	transition:1s;
+	font-size:20px;
+	font-weight:900;
+	z-index:0;
+}
+
+.Teren{
+	color:#0080C4;
+}
+
+.oi{
+	color:#EB873B;
+}
+
+.photo:hover > img{
+	position:absolute;
+	padding-left:10px;
+	z-index:1;
+}
+
+.photo:hover > span{
+	position:relative;
+	padding-left:115px;
+	padding-top:42px;
+	z-index:0;
+}
+
+.nav{
+	display:grid;
+	grid-template-columns:20% 20% 18% 20%;
+	align-items:center;
+	justify-items:center;
+}
+
+.nav a{
+	color:black;
+	outline: none;
+	text-decoration: none;
+	font-size:20px;
+	transition:0.7s;
+}
+
+.nav a:hover {
+	font-size:23px;
+	color:#2B7CCD;
+	border-bottom: 5px solid #EB873B;
+}
+
+.profil{
+
+	/*left:00px;*/
+	/*margin-right:50px;*/
+	display:grid;
+	align-items:center;
+	justify-items:center;
+	grid-template-rows:300px;
+	/*grid-column-gap:20px;*/
+
+}
+
+
+.KazRobo{
+	display:grid;
+	align-items:center;
+	justify-items:center;
+	position:relative;
+	left:0px;
+	top:20px;
+}
+
+
+
+.z0{
+	display:grid;
+	align-items:center;
+	justify-items:center;
+	width:200px;
+	height:200px;
+	background-color:#5F5F5F;
+	border-radius:50%;
+	z-index:1;
+	position:absolute;
+	color:black;
+
+}
+
+/*.z{
+	display:grid;
+	align-items:center;
+	justify-items:center;
+}*/
+
+.z1{
+	border-radius:50%;
+	width:200px;
+	height:205px;
+	z-index:2;
+	position:relative;
+	transition:0.7s;
+}
+
+.z1:hover{
+	content:"";
+	opacity: 0.0;
+	
+}
+
+.z0 > span{
+	font-size:20px;
+	transition:1s;
+}
+
+.KazRobo:hover > .z0 > span{
+	font-size:22px;
+}
+
+.TOM:hover > .z0 > span{
+	font-size:22px;
+}
+
+.Oi:hover > .z0 > span{
+	font-size:22px;
+}
+
+.KPO:hover > .z0 > span{
+	font-size:22px;
+}
+
+.TOM{
+	display:grid;
+	justify-items:center;
+	align-items:center;
+	position:relative;
+	left:0px;
+	top:20px;
+}
+
+.Oi{
+	display:grid;
+	align-items:center;
+	justify-items:center;
+	position:relative;
+	left:0px;
+	top:20px;
+}
+
+.KPO{
+	display:grid;
+	align-items:center;
+	justify-items:center;
+	position:relative;
+	left:0px;
+	top:20px;
+}
+.butt{
+	display:grid;
+	grid-template-columns:50% 50%;
+}
+
+#butt1{
+	display:grid;
+	margin-left:630px;
+	margin-top:10px;
+	width:20px;
+	height:20px;
+}
+#butt2{
+	display:grid;
+	margin-left:30px;
+	margin-top:10px;
+	width:20px;
+	height:20px;
+}
+/**/
