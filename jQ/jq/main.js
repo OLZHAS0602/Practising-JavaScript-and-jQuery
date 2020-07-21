@@ -4,21 +4,27 @@ $(document).ready(function(){
 		$(arr[i]).hide();
 	}
 	var num;
+	var px1;
+	var px2;
 	$(".butt1").on("click",function(){
 		var enem = $(this).text();
 		if (enem == "<"){
 			num = 3;
+			px1 = "500px";
+			px2 = "-800px";
 		}
 		else{
 			num = 1;
+			px1 = "-800px";
+			px2 = "500px";
 		}
 		console.log(arr);
 		$(arr[num]).css({
-			"left":"500px",
+			"left":px1,
 			"opacity":"0.0"
 		});
 		$(arr[0]).animate({
-			"left":"-800px",
+			"left":px2,
 			"opacity":"0.0"
 			},1000,function(){
 				$(arr[0]).hide();
