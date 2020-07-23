@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>lesson grid</title>
+			<link href="css\style.css" rel="stylesheet" type="text/css">
+		</head> 
+		<body>
+			<script type="text/javascript" src = "js\java.js"></script>
+			<div class = "htm">
+				<div class = "head">
+					<div class = "logo">
+						<span class = "span_logo">TerenOI</span>
+						<img class = "photo" src="pp.jpg" width="100" height="100" >
+					</div>
+					
+					<div class = "top">
+						<a class = "s" href="#" onmouseover = "ss(name)" name = "0" onmouseout = "ss1(name)">О нас</a>
+						<a class = "s" href="#" onmouseover = "ss(name)" name = "1" onmouseout = "ss1(name)" >Вакансий</a>
+						<a class = "s" href="#" onmouseover = "ss(name)" name = "2" onmouseout = "ss1(name)">Товары</a>
+						<a class = "s" href="#" onmouseover = "ss(name)" name = "3" onmouseout = "ss1(name)">Контакты</a>
+					</div>
+					
+					<div class = "span_num">
+						<span>87015291429</span>
+					</div>
+				</div>
+				
+				<div class = "body">
+					<div class = "content">
+						<div class = "pict">
+							<img class = "pict1" id = "pict1" src="servo.jpeg" width="100" height="100">
+							<img class = "pict1" id = "pict2" src="motor.jpeg" width="100" height="100">
+						</div>
+						<div class = "knop">
+							<div id = "knop1"><input id = "kn1" type = "button" value = "<" onclick = "tovar(value)"></div>
+							<div id = "knop2"><input id = "kn2" type = "button" value = ">" onclick = "tovar(value)"></div>
+						</div>
+					</div>
+					<div class = "reg">
+						<div class = "n"><input id = "name" name = "name" type = "text" placeholder = "Имя"><span id = "ifName"></span></div>
+						<div class = "p"><input id = "pass" name = "pass" type = "password" placeholder = "Пароль"><span id = "ifPass"></span></div>
+						<div class = "butt">
+							<div class = "butt1"><input type = "button" value = "Вход" onclick = "valid()"></div>
+							<div class = "butt2"><input type = "button" value = "Регистрация"></div>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</body>
+	</html>

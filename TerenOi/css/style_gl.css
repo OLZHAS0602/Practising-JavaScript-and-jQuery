@@ -1,0 +1,29 @@
+#osnova{
+	position:relative;
+	float:left;
+	background:#EB873B;
+	width:90%;
+	height:540px;
+}
+#osnova1{
+	position:relative;
+	border-right: 2px solid #0081C5;
+	height:500px;
+	float:left;
+	background:#0081C5;
+}
+#osnova2{
+	position:relative;
+	margin-left:20px;
+	margin-top:10px;
+}
+#tab{
+	background:#FFFFFF;
+}
+
+#fff{
+	position:relative;
+	float:left;
+	background:#EB873B;
+	height:100%;
+}
